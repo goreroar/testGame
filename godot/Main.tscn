@@ -2,7 +2,12 @@
 
 [node name="Main" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="world" type="TileMap" parent="."]
+mode = 1
+cell_size = Vector2( 64, 32 )
+format = 1
+
+[node name="obstacles" type="TileMap" parent="."]
 mode = 1
 cell_size = Vector2( 64, 32 )
 format = 1
